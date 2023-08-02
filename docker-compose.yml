@@ -2,7 +2,7 @@ version: "3.7"
 services:
   # 서버 설정
   backend:
-    image: pxxnxx/atension:master
+    image: pxxnxx/atension:main
     container_name: backend
     hostname: backend
     network_mode: "host"
