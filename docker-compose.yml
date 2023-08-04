@@ -8,3 +8,5 @@ services:
     network_mode: "host"
     env_file:
       - .env
+    expose:
+      - "8080"
